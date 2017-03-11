@@ -8,7 +8,7 @@ function Pilka(){
 	this.yspeed = 2;
 	this.los = function (min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
-	}
+	}//http://stackoverflow.com/questions/17516771/javascript-random-number
 this.updated = function (){
 	if (this.x === e.x && (this.y === e.y || ((this.y > e.y) && (this.y < e.y+100)))) {
 				
